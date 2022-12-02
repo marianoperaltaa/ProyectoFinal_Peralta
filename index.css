@@ -1,0 +1,349 @@
+/* NORMALIZE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.2%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F1F1F1;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+
+    background-image: linear-gradient(to right, #1c8283, #238788, #298c8d, #2f9293, #359798, #3a999a, #3f9b9d, #439d9f, #489c9f, #4d9b9f, #51999f, #56989f);
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+
+}
+
+.nav_logo{
+
+    display: flex;
+
+}
+
+.logo_img{
+
+    width: 13rem;
+
+}
+
+.nav_menu{
+
+    display: flex;
+    flex-basis: 40%;
+    gap: 1.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.menu_item {
+
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu_button {
+
+    background: none;
+    border-style: none;
+
+}
+
+.menu_link{
+
+    text-decoration: none;
+    color: #E06A58;
+    font-size: 1.7em;
+    padding: 1.2rem 1.5rem;
+    text-transform: uppercase;
+
+
+}
+
+/* MAIN */
+
+.main_tittle {
+
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+
+}
+
+.find_products{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.main_searcher{
+
+    display: flex;
+    justify-content: flex-start;
+    height: 3rem;
+    margin-left: 10rem;
+
+}
+
+.main_searcher .form-control {
+
+    width: 25rem;
+    font-size: 1.5em;
+
+}
+
+.main_select {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+
+}
+
+.form-select{
+
+    width: 17rem;
+    margin-bottom: 3rem;
+    height: 3rem;
+    font-size: 1.5em;
+
+}
+
+.form-select option {
+
+    font-size: 1em;
+
+}
+
+.main_productos {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5rem;
+
+}
+
+.main_cards {
+
+display: flex;
+justify-content: center;
+
+}
+
+.card {
+
+    width: 35rem;
+
+}
+
+.ofertaColor {
+
+    color: green;
+
+}
+
+.resultado_busqueda {
+
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 25rem 0;
+
+}
+
+.modal-header h5{
+
+    margin: auto;
+    padding: 1rem 0;
+    font-size: 2em;
+
+}
+
+.modal-header .btn-close{
+
+    margin: 0;
+
+}
+
+.modal-body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+.empty_cart {
+
+    font-size: 2em;
+
+}
+
+.total_text {
+
+    font-size: 2em;
+
+}
+
+.cardCart {
+
+    border: 1px solid black;
+    display: flex;
+    width: 45rem;
+
+}
+
+.cardCartImg {
+
+    object-fit: cover;
+    width:100%;
+    height:100%;
+
+}
+
+.cardCartTitle{
+
+    font-size: 1.6em;
+
+}
+
+.cardCartPrize {
+
+    font-size: 1.5em;
+
+}
+
+.btn-danger{
+
+    font-size: 1.2em;
+
+}
+
+.modal-footer {
+
+    padding: 3rem 3rem 1rem;
+
+}
+
+.btnCart{
+
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.2em;
+
+}
+/* FOOTER */
+
+.mainFooter {
+
+    width: 100%;
+    background-image: linear-gradient(to right, #1c8283, #238788, #298c8d, #2f9293, #359798, #3a999a, #3f9b9d, #439d9f, #489c9f, #4d9b9f, #51999f, #56989f);
+    margin-top: 10rem;
+
+}
+
+.mainFooter__group-1 {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    grid-gap: 5rem;
+    padding-top: 4.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.group-1__box figure {
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.group-1__box img {
+
+    width: 20rem;
+
+}
+
+.group-1__box h2 {
+
+    color: #E06A58;
+    margin-bottom: 2.5rem;
+    font-size: 2em;
+
+}
+
+.group-1__box p {
+
+    margin-bottom: 1rem;
+    color: black;
+
+}
+
+.box__redSocial a {
+
+    display: inline-block;
+    text-decoration: none;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    background-color: #F7C6C0;
+    text-align: center;
+
+}
+
+.iconify {
+
+    color: #E06A58;
+    transition: all 1s;
+
+}
+
+.mainFooter__group-2 {
+
+    background-color: #1C8283;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: #E06A58;
+    grid-column: 1/4;
+    font-size: 1.5em;
+
+}
