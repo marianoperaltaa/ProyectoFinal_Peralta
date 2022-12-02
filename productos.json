@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1, 
+        "nombre":"Camiseta de Argentina", 
+        "tipo": "Camiseta", 
+        "precio": 15000, 
+        "imagen":"camisetaArg.webp", 
+        "pais": "Argentina"
+    },
+    {
+        "id": 2, 
+        "nombre":"Short de Argentina", 
+        "tipo": "Short", 
+        "precio": 7500, 
+        "imagen":"shortArg.webp", 
+        "pais": "Argentina"
+    },
+    {
+        "id": 3, 
+        "nombre":"Camiseta de España", 
+        "tipo": "Camiseta", 
+        "precio": 12000, 
+        "imagen":"camisetaEsp.webp", 
+        "pais": "España"
+    },
+    {
+        "id": 4, 
+        "nombre":"Short de España", 
+        "tipo": "Short", 
+        "precio": 7000, 
+        "imagen":"shortEsp.webp", 
+        "pais": "España"
+    },
+    {
+        "id": 5, 
+        "nombre":"Camiseta de Francia", 
+        "tipo": "Camiseta", 
+        "precio": 10000, 
+        "imagen":"camisetaFra.webp", 
+        "pais": "Francia"
+    },
+    {
+        "id": 6, 
+        "nombre":"Short de Francia", 
+        "tipo": "Short", 
+        "precio": 8000, 
+        "imagen":"shortFra.webp", 
+        "pais": "Francia"
+    },
+    {
+        "id": 7, 
+        "nombre":"Camiseta de Brasil", 
+        "tipo": "Camiseta", 
+        "precio": 15000, 
+        "imagen":"camisetaBr.webp", 
+        "pais": "Brasil"
+    },
+    {
+        "id": 8, 
+        "nombre":"Short de Brasil", 
+        "tipo": "Short", 
+        "precio": 9800, 
+        "imagen":"shortBr.webp", 
+        "pais": "Brasil"
+    },
+    {
+        "id": 9, 
+        "nombre":"Camiseta de Belgica", 
+        "tipo": "Camiseta", 
+        "precio": 9000, 
+        "imagen":"camisetaBel.webp", 
+        "pais": "Belgica"
+    },
+    {
+        "id": 10, 
+        "nombre":"Short de Belgica", 
+        "tipo": "Short", 
+        "precio": 6500, 
+        "imagen":"shortBel.webp", 
+        "pais": "Belgica"
+    },
+    {
+        "id": 11, 
+        "nombre":"Camiseta de Portugal", 
+        "tipo": "Camiseta", 
+        "precio": 13500, 
+        "imagen":"camisetaPor.webp", 
+        "pais": "Portugal"
+    },
+    {
+        "id": 12, 
+        "nombre":"Short de Portugal", 
+        "tipo": "Short", 
+        "precio": 7800, 
+        "imagen":"shortPor.webp", 
+        "pais": "Portugal"
+    },
+    {
+        "id": 13, 
+        "nombre":"Camiseta de Inglaterra", 
+        "tipo": "Camiseta", 
+        "precio": 11300, 
+        "imagen":"camisetaIng.webp", 
+        "pais": "Inglaterra"
+    },
+    {
+        "id": 14, 
+        "nombre":"Short de Inglaterra", 
+        "tipo": "Short", 
+        "precio": 8900, 
+        "imagen":"shortIng.webp", 
+        "pais": "Inglaterra"
+    }
+
+]
