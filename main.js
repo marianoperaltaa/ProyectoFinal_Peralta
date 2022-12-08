@@ -173,7 +173,6 @@ function filtrarNuevoViejo (array){
 function agregarAlCarrito (array){
     
     let agregarProducto = productosEnCarrito.find((pr) => pr.id == array.id);
-    console.log(agregarProducto);
     if (agregarProducto === undefined){
 
         productosEnCarrito.push(array);
