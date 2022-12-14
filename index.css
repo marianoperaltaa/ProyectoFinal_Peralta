@@ -174,7 +174,27 @@ justify-content: center;
     font-size: 2em;
     justify-content: center;
     align-items: center;
-    margin: 25rem 0;
+    margin: 25rem 0 0;
+
+}
+
+.divVerMas{
+
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 25rem;
+
+}
+
+.btnVerMas{
+
+    border-style: none;
+    background-image: linear-gradient(to right, #1c8283, #238788, #298c8d, #2f9293, #359798, #3a999a, #3f9b9d, #439d9f, #489c9f, #4d9b9f, #51999f, #56989f);
+    width: 25rem;
+    height: 4rem;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.5em;
 
 }
 
