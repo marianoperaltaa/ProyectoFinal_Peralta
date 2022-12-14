@@ -282,7 +282,21 @@ function buscarProductos (busqueda, array){
     if (buscar.length == 0){
         
         resultadoBusqueda.innerHTML = `<h3 class="resultado_busqueda">No se ha encontrado</h3>`;
-        
+
+        let btnVerMas = document.createElement("div");
+        btnVerMas.innerHTML = `<div class="divVerMas">
+                                    <button class="btnVerMas">Ver más productos</button>
+                                </div>`
+
+        resultadoBusqueda.appendChild(btnVerMas);
+        btnVerMas.addEventListener("click", ()=>{
+
+            imprimirCards(listaProductos);
+            buscador.value = "";
+            resultadoBusqueda.innerHTML = "";
+            
+
+        });
     }
 
         imprimirCards (buscar);
