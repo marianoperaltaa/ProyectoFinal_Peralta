@@ -230,7 +230,7 @@ function imprimirEnCarrito (array){
     });
     
     //Elimina producto del Carrito
-    array.forEach((elementoCarrito, indice) => {
+    array.forEach((elementoCarrito) => {
         
         //Captura el producto que se desee eliminar y se le da un Evento
         document.getElementById(`botonEliminar${elementoCarrito.id}`).addEventListener ("click", () => {
@@ -250,7 +250,9 @@ function imprimirEnCarrito (array){
             }).showToast();
             
             //Elimina del Array ProductosEnCarrito
-            productosEnCarrito.splice(indice, 1);
+            let elemEliminar = array.find(pr => pr.id === elementoCarrito);
+            let posicion = array.indexOf(elemEliminar);
+            array.splice(posicion, 1);
             
             //Elimina del LocalStorage
             localStorage.setItem("carrito", JSON.stringify(productosEnCarrito));
